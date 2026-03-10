@@ -4,7 +4,7 @@ Este repositorio contiene una reproducción simplificada del desafío de anális
 
 Introducción
 
-El conjunto de datos original del desafío (WA_Fn‑UseC_‑Telco‑Customer‑Churn.csv) reúne información demográfica, de servicios contratados y de facturación mensual de alrededor de 7 000 clientes. Debido a restricciones de acceso en este entorno, en el notebook Telco_Churn_Analysis.ipynb se genera un conjunto de datos sintético con características y proporciones de cancelación similares al original. No obstante, la metodología de limpieza, exploración, modelado y evaluación es idéntica y puede aplicarse al fichero real si se dispone de él.
+El conjunto de datos original del desafío (WA_Fn‑UseC_‑Telco‑Customer‑Churn.csv) reúne información demográfica, de servicios contratados y de facturación mensual de alrededor de 7 000 clientes. Debido a restricciones de acceso en este entorno, en el notebook Challenge‑Telecom‑X‑parte‑2.ipynb se genera un conjunto de datos sintético con características y proporciones de cancelación similares al original. No obstante, la metodología de limpieza, exploración, modelado y evaluación es idéntica y puede aplicarse al fichero real si se dispone de él.
 
 Contenido del proyecto
 
@@ -30,7 +30,7 @@ Cómo ejecutar el notebook
 
 Clona este repositorio en tu entorno local o en Google Colab.
 
-Abre el notebook Telco_Churn_Analysis.ipynb en Jupyter o Colab.
+Abre el notebook Challenge‑Telecom‑X‑parte‑2.ipynb en Jupyter o Colab.
 
 Ejecuta todas las celdas para reproducir el análisis. El código generará un conjunto de datos sintético automáticamente. Si deseas usar el archivo real, coloca el CSV en la carpeta data/ y reemplaza la función make_classification por la lectura del CSV.
 
@@ -50,4 +50,4 @@ Se recomiendan estrategias de retención orientadas a los segmentos de clientes 
 
 Referencias
 
-Las conclusiones de este análisis se apoyan en fuentes públicas sobre modelos de predicción de churn y comparación de algoritmos. Por ejemplo, un estudio de Analytics Vidhya destaca que los clientes con facturación mensual alta y baja antigüedad tienen mayor riesgo de cancelar. Otro artículo de MarketR indica que, para conjuntos de datos de churn, la regresión logística obtiene aproximadamente 81,5 % de exactitud y que los Random Forest logran un desempeño similar o superior con mejor manejo de interacciones no lineales.
+Las conclusiones de este análisis se apoyan en fuentes públicas sobre modelos de predicción de churn y comparación de algoritmos. Por ejemplo, un estudio de Analytics Vidhya destaca que los clientes con facturación mensual alta y baja antigüedad tienen mayor riesgo de cancelar. Otro artículo de MarketR indica que, para conjuntos de datos de churn, la regresión logística obtiene aproximadamente 81,5 % de exactitud y que los Random Forest logran un desempeño similar o superior con mejor manejo de interacciones no lineales.
